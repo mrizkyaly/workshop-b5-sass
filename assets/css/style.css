@@ -25,6 +25,15 @@
   height: 100%;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 991.98px) {
+  .gorder-about {
+    padding: 12px;
+  }
+  .gorder-about .about {
+    margin-bottom: 48px;
+  }
+}
+
 .gorder-app {
   padding: 72px 0;
   background-color: #ffe6e6;
@@ -48,6 +57,16 @@
   color: #d70a0a;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 991.98px) {
+  .gorder-app {
+    padding: 48px 12px;
+  }
+  .gorder-app .about-app {
+    margin-top: 24px;
+    text-align: center;
+  }
+}
+
 .gorder-testi {
   margin: 64px 0;
 }
@@ -55,6 +74,12 @@
 .gorder-testi .title-testi {
   color: #d70a0a;
   margin-bottom: 28px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 991.98px) {
+  .gorder-testi {
+    padding: 12px;
+  }
 }
 
 .navbar-gorder .navbar-brand .logo-gorder {
@@ -76,6 +101,18 @@
 .navbar-gorder .profile-action img {
   width: 60px;
   height: 60px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 991.98px) {
+  .navbar-gorder .navbar-nav {
+    text-align: right;
+  }
+  .navbar-gorder .navbar-nav .nav-link {
+    padding: 24px 0;
+  }
+  .navbar-gorder .profile-action {
+    margin-top: 18px;
+  }
 }
 
 .footer {
@@ -100,6 +137,21 @@
   color: #d70a0a;
   font-size: 32px;
   margin-right: 24px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 991.98px) {
+  .footer {
+    text-align: center;
+  }
+  .footer .sosmed {
+    margin-top: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .btn-outline-gorder {

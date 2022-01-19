@@ -19,6 +19,15 @@
     }
 }
 
+@media only screen and (min-width: 300px) and (max-width: 991.98px) {
+    .gorder-about {
+        padding: 12px;
+        .about {
+            margin-bottom: 48px;
+        }
+    }
+}
+
 .gorder-app {
     padding: 72px 0;
     background-color: $bgprimary;
@@ -42,11 +51,27 @@
     }
 }
 
+@media only screen and (min-width: 300px) and (max-width: 991.98px) {
+    .gorder-app {
+        padding: 48px 12px;
+        .about-app {
+            margin-top: 24px;
+            text-align: center;
+        }
+    }
+}
+
 .gorder-testi {
     margin: 64px 0;
     .title-testi {
         color: $primary;
         margin-bottom: 28px;
         font-weight: map-get($font-weights, sembold);
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 991.98px) {
+    .gorder-testi {
+        padding: 12px;
     }
 }

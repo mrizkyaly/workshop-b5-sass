@@ -23,3 +23,17 @@
         }
     }
 }
+
+@media only screen and (min-width: 300px) and (max-width: 991.98px) {
+    .navbar-gorder {
+        .navbar-nav {
+            text-align: right;
+            .nav-link {
+                padding: 24px 0;
+            }
+        }
+        .profile-action {
+            margin-top: 18px;
+        }
+    }
+}
