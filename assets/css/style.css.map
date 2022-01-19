@@ -1,0 +1,16 @@
+{
+    "version": 3,
+    "mappings": "AEAA,OAAO,CAAC,+FAAI;ACAZ,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,WAAW,EAAE,KAAK;CACrB",
+    "sources": [
+        "style.scss",
+        "base/_color.scss",
+        "base/_typo.scss",
+        "_global.scss",
+        "page/_beranda.scss",
+        "layout/_navbar.scss",
+        "layout/_footer.scss",
+        "components/_button.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
