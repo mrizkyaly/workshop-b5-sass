@@ -5,6 +5,20 @@
   font-family: inter;
 }
 
+.owl-prev i {
+  font-size: 24px;
+  padding: 8px 24px;
+  background-color: #ffe6e6;
+  color: #14cfc7;
+}
+
+.owl-next i {
+  font-size: 24px;
+  padding: 8px 24px;
+  background-color: #ffe6e6;
+  color: #14cfc7;
+}
+
 .gorder-about {
   margin-top: 24px;
   margin-bottom: 120px;
