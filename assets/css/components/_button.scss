@@ -5,10 +5,16 @@
     border-radius: 50px;
     font-weight: map-get($font-weights, medium);
     padding: 12px 24px;
+    transition: all ease 0.5s;
+    &:hover {
+        background-color: $primary;
+        border: 2px solid transparent;
+        color: $white;
+    }
 }
 
 .btn-download {
-    padding: 12px 32px;
+    padding: 12px 64px;
     border-radius: 50px;
     background: $secondary;
     font-size: 18px;

@@ -161,10 +161,18 @@
   border-radius: 50px;
   font-weight: 500;
   padding: 12px 24px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.btn-outline-gorder:hover {
+  background-color: #d70a0a;
+  border: 2px solid transparent;
+  color: #fff;
 }
 
 .btn-download {
-  padding: 12px 32px;
+  padding: 12px 64px;
   border-radius: 50px;
   background: #14cfc7;
   font-size: 18px;
