@@ -1,0 +1,18 @@
+.footer {
+    background: $bgprimary;
+    .logo {
+        img {
+            width: 180px;
+            height: 68px;
+        }
+    }
+    .sosmed {
+        display: flex;
+        justify-content: end;
+        i {
+            color: $primary;
+            font-size: 32px;
+            margin-right: 24px;
+        }
+    }
+}

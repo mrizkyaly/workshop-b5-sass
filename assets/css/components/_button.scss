@@ -1,0 +1,16 @@
+.btn-outline-gorder {
+    font-size: 18px;
+    color: $primary;
+    border: 2px solid $primary;
+    border-radius: 50px;
+    font-weight: map-get($font-weights, medium);
+    padding: 12px 24px;
+}
+
+.btn-download {
+    padding: 12px 32px;
+    border-radius: 50px;
+    background: $secondary;
+    font-size: 18px;
+    font-weight: map-get($font-weights, bold);
+}

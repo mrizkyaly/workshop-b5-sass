@@ -1,0 +1,25 @@
+.navbar-gorder {
+    .navbar-brand {
+        .logo-gorder {
+            width: 180px;
+            height: 60px;
+        }
+    }
+    .navbar-nav {
+        .nav-link {
+            font-size: 18px;
+            margin-right: 24px;
+            font-weight: map-get($font-weights, regular);
+            &.active {
+                color: $black;
+                font-weight: map-get($font-weights, semibold);
+            }
+        }
+    }
+    .profile-action {
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
